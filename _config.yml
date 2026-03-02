@@ -9,7 +9,7 @@ copyright: "2025"
 only_build_toc_files: true
 
 repository:
-  url: https://github.com/coding-for-reproducible-research/RCC_Coding_Club_Template  # <-- and this!
+  url: https://github.com/gbstringer/coding-for-reproducible-research/RCC_Coding_Club_Template  # <-- and this!
   branch: main
   path_to_book: ""
 
@@ -18,6 +18,8 @@ html:
   use_repository_button: true
   use_edit_page_button: true
   use_issues_button: true
+  extra_js:
+    - "_static/full_width.js"
 
 launch_buttons:
   binderhub_url: "https://mybinder.org"
